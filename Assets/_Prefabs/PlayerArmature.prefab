@@ -48,7 +48,6 @@ GameObject:
   - component: {fileID: 3469481489523632306}
   - component: {fileID: 1443725812097819370}
   - component: {fileID: 267548622055060374}
-  - component: {fileID: 8328276895820062748}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -135,7 +134,7 @@ MonoBehaviour:
   MoveSpeed: 2
   SprintSpeed: 5.335
   RotationSmoothTime: 0.12
-  SpeedChangeRate: 15
+  SpeedChangeRate: 18
   LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
   FootstepAudioClips:
   - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
@@ -197,6 +196,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  interact: 0
   analogMovement: 0
   leftClick: 0
   cursorLocked: 1
@@ -323,27 +323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d435e90a50f7c4aa474a520778e375, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &8328276895820062748
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5177222212589128502}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 1.5}
-  m_Center: {x: 0, y: 1, z: 1}
 --- !u!1001 &16905502507711331
 PrefabInstance:
   m_ObjectHideFlags: 0
