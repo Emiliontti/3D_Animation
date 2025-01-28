@@ -1,7 +1,8 @@
 using UnityEngine;
 using StarterAssets;
+using Unity.VisualScripting;
 
-public class HitController : MonoBehaviour
+public class CustomKeys : MonoBehaviour
 {
     private Animator _animator;
     private StarterAssetsInputs _input;
@@ -9,7 +10,7 @@ public class HitController : MonoBehaviour
     void Start()
     {
         _input = GetComponent<StarterAssetsInputs>();
-        _animator = GetComponent<Animator>();   
+        _animator = GetComponent<Animator>();
 
         if (_input == null)
             Debug.LogError("StarterAssetsInputs not found");
@@ -19,9 +20,21 @@ public class HitController : MonoBehaviour
     {
         if (_input.leftClick)
         {
-            Debug.Log("Left Click");    
+            Debug.Log("Left Click");
             _input.leftClick = false;
             _animator.SetTrigger("Hit");
         }
+
+        if (_input.interact)
+        {
+            Debug.Log("Pressed the interact key");
+            _input.interact = false;
+            _animator.SetTrigger("Interact");
+        }
+    }
+
+    public void OpenChest(){
+
+        Debug.Log("Animation event triggered");
     }
 }
