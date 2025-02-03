@@ -9,6 +9,7 @@ public class CustomKeys : MonoBehaviour
     private InteractController _interactController;
     private GameObject interactObject;
     private PlayerInput _playerInput;
+    private ThirdPersonController _playerController;
 
     private bool isPerformingAction = false;
 
@@ -18,6 +19,7 @@ public class CustomKeys : MonoBehaviour
         _animator = GetComponent<Animator>();
         _interactController = GetComponent<InteractController>();
         _playerInput = GetComponent<PlayerInput>();
+        _playerController = GetComponent<ThirdPersonController>();
 
         if (_input == null)
             Debug.LogError("StarterAssetsInputs not found");
@@ -31,19 +33,25 @@ public class CustomKeys : MonoBehaviour
         {
             Debug.Log("Left Click");
             _input.leftClick = false;
-            _animator.SetTrigger("Hit");
-            StartAction(); 
+            if (_playerController.Grounded)
+            {
+                _animator.SetTrigger("Hit");
+                StartAction();
+            }
         }
 
-        if (_input.interact)
+        if (_input.interact && _playerController.Grounded)
         {
             Debug.Log("Pressed the interact key");
             _input.interact = false;
-            interactObject = _interactController.ItemCheck();
-            if (interactObject != null)
+            if (_playerController.Grounded)
             {
-                _animator.SetTrigger("Interact");
-                StartAction();
+                interactObject = _interactController.ItemCheck();
+                if (interactObject != null)
+                {
+                    _animator.SetTrigger("Interact");
+                    StartAction();
+                }
             }
         }
     }
