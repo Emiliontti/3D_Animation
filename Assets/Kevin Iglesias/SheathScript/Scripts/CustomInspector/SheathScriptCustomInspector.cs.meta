@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 063cf62175659b24db387242f848ec76
+timeCreated: 1557403081
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Scripts/CustomInspector/SheathScriptCustomInspector.cs
+  uploadId: 706647

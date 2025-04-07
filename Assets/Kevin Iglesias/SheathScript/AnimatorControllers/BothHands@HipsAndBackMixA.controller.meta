@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b4ce5564f69766c4f841284f136f4ead
+timeCreated: 1548461312
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/AnimatorControllers/BothHands@HipsAndBackMixA.controller
+  uploadId: 706647

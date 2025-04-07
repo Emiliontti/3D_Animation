@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 086bfc524568504429d0199fcf51e314
+timeCreated: 1548760715
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Prefabs/BothHands/SwordAndShield/SwordAndShieldB_BothHands@Back.prefab
+  uploadId: 706647

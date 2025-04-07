@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fd98910ee64b66047a81d326d9a30481
+timeCreated: 1548493569
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Prefabs/BothHands/Axes/Axes_BothHands@Back.prefab
+  uploadId: 706647

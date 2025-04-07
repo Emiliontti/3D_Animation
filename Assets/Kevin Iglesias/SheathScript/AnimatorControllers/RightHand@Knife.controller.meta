@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 94e2ef3da0b50a647a1608a2802ff9d0
+timeCreated: 1557348231
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/AnimatorControllers/RightHand@Knife.controller
+  uploadId: 706647

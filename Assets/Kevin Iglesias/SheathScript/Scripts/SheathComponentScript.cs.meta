@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b6a334b958f779b44ac4f763346650e9
+timeCreated: 1548436349
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Scripts/SheathComponentScript.cs
+  uploadId: 706647

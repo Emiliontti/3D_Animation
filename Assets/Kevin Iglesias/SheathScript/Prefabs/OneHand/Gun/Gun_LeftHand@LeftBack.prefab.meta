@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 94b0d50cc706a8e42a82120fcb074c36
+timeCreated: 1548691218
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Prefabs/OneHand/Gun/Gun_LeftHand@LeftBack.prefab
+  uploadId: 706647

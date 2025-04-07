@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0078e8e2f0a248c44a0ea20846c59922
+timeCreated: 1548461312
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/AnimatorControllers/RightHand@RightHipsSheath.controller
+  uploadId: 706647

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f19e6fe29aef2644aac9689bc2e10f91
+timeCreated: 1548493569
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Prefabs/BothHands/Swords/Swords_BothHands@Back.prefab
+  uploadId: 706647

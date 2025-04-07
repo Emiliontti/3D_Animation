@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d8d2a2775b96d3942a15f390d3c702d9
+timeCreated: 1548698132
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Prefabs/OneHand/Polearm/Polearm_LeftHand@LeftLowerBack.prefab
+  uploadId: 706647

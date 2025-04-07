@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bbca74f277e9bff46bea4d86b89eba25
+timeCreated: 1557349006
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Prefabs/OneHand/Katana/Katana_LeftHand.prefab
+  uploadId: 706647

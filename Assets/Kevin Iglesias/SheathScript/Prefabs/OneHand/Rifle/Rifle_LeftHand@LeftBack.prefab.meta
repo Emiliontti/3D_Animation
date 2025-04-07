@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cf8d8fd97aa01074b8f503f0f536fb99
+timeCreated: 1548691218
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/Prefabs/OneHand/Rifle/Rifle_LeftHand@LeftBack.prefab
+  uploadId: 706647

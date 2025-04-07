@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 564143e042ca56648a1040ff40b02855
+timeCreated: 1548461312
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 130587
+  packageName: Sheath Script
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/SheathScript/AnimatorControllers/LeftHand@LeftLowerBackSheath.controller
+  uploadId: 706647
