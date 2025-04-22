@@ -4,21 +4,19 @@ public class InteractController : MonoBehaviour
 {
     public GameObject ItemCheck()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position + new Vector3(0, 1f, 0), Vector3.forward, out hit, 1f))
+        float detectionRadius = 1f;
+        Vector3 sphereCenter = transform.position + new Vector3(0, 1f, 0);
+
+        Collider[] hitColliders = Physics.OverlapSphere(sphereCenter, detectionRadius);
+        foreach (var collider in hitColliders)
         {
-            if (hit.collider.gameObject.tag == "Interactable")
+            if (collider.CompareTag("Interactable"))
             {
-                GameObject itemInRange = hit.collider.gameObject;
-                return itemInRange;
+                return collider.gameObject;
             }
         }
+
         return null;
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawLine(transform.position + new Vector3(0, 1f, 0), Vector3.forward * 1f);
-    }
 }
