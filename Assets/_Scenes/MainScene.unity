@@ -308,6 +308,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &250298227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+  m_PrefabInstance: {fileID: 1522778970289170829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &279249858
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,9 +752,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1001785435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -866,6 +871,7 @@ Transform:
   m_Children:
   - {fileID: 4397715260080606}
   - {fileID: 71494236}
+  - {fileID: 250298227}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1327619677 stripped
@@ -1095,6 +1101,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231d60e07e14e0044ba39e86bf08e932, type: 3}
+--- !u!1001 &1522778970289170829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1072594508}
+    m_Modifications:
+    - target: {fileID: 3141923362444431364, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_Name
+      value: Jump Pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.966436
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.25690746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -29.773
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818744057612568176, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad43e02e1b0d2bb4c915529aa625befa, type: 3}
 --- !u!4 &2070925443028286827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2821116309671616590, guid: 28f2c65f9b9976a498b34530e1617f2b, type: 3}
@@ -1445,10 +1508,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279249859}
     m_Modifications:
-    - target: {fileID: 3624397229627827238, guid: 8520ec44ef2968b47b0b976cf45395d7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6083237632382050280, guid: 8520ec44ef2968b47b0b976cf45395d7, type: 3}
       propertyPath: m_Name
       value: Environment
